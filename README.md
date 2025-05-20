@@ -53,3 +53,16 @@ Cadastrar registro de teste.
 ```
 php artisan db:seed
 ```
+
+Instalar o criador de PDF.
+```
+composer require barryvdh/laravel-dompdf
+```
+
+Limpar cache.
+```
+php artisan route:clear
+php artisan config:clear
+php artisan cache:clear
+php artisan view:clear
+```
